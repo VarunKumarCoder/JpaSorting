@@ -19,5 +19,4 @@ public class DoctorServiceImpl implements IDoctorService {
 		Iterable<Doctor> it = doctorRepo.findAll(sort);
 		return it;
 	}
-
 }
